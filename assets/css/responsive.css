@@ -1,0 +1,23 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 68px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header-item {
+        padding: 0 12px;
+    }
+
+    .mobile-bar {
+        display: block;
+    }
+}

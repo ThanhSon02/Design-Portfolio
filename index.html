@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Design Portfolio</title>
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="grid wide header-item">
+                <div class="logo">
+                    <img class="logo-img" srcset="./assets/img/logo.png 1.5x"  alt="Logo">
+                    <span>Logo Here</span>
+                </div>
+                <div class="nav hide-on-mobile">
+                    <a href="#" class="nav-item">Home</a>
+                    <a href="#" class="nav-item">Work</a>
+                    <a href="#" class="nav-item">Contact</a>
+                </div>
+
+                <div class="mobile-bar">
+                    <img alt="mobile-bar" srcset="./assets/img/mobile_bar.png 2x">
+                </div>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="content">
+                    <!-- Profile -->
+                    <div class="row content-profile__container">
+                        <div class="col c-6 content-profile-text">
+                            <h2 class="content-profile__header">
+                                Hi, I am Your Name
+                                A Product Designer
+                                based in City.
+                            </h2>
+                            <p class="content-profile__desc">
+                                I help businesses and companies reach
+                                their goals by designing user-centric digital
+                                products & interactive experiences.
+                            </p>
+                            <div class="send-email__btn">
+                                <img alt="letter-icon" srcset="./assets/icons/ic1.png 2x">
+                                <p>hi@yourname.com</p>
+                            </div>
+                        </div>
+                        <div class="col c-6 content-profile-img">
+                            <img class="c-8" alt="profile img" srcset="./assets/img/user.png 2x">
+                        </div>
+                    </div>
+
+                    <!-- Featured -->
+                    <div class="content-featured">
+                        <div class="featured__work">
+                            <img srcset="./assets/img/Arrow.png 2x" alt="arwow">
+                            Featured Work
+                        </div>
+                        <div class="row featured__img">
+                            <div class="col c-6 featured__img-container">
+                                <div class="featured__img-link" style="background-image: url(./assets/img/content_img/img1.png);">
+                                    <h3 class="inversion">
+                                        InVersion
+                                    </h3>
+                                </div>
+                                <div class="featured__img-link" style="background-image: url(./assets/img/content_img/img2.png);"></div>
+                            </div>
+                            <div class="col c-6 featured__img-container">
+                                <div class="featured__img-link" style="background-image: url(./assets/img/content_img/img3.png);"></div>
+                                <div class="featured__img-link" style="background-image: url(./assets/img/content_img/img4.png);"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Explorations -->
+                    <div class="content-visual">
+                        <h3 class="content-visual__heading">
+                            Visual Explorations
+                        </h3>
+                        <div class="content-visual__img row">
+                            <div class="col c-4 content-visual__img-group">
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img5.png);"></div>
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img6.png);"></div>
+                            </div>
+                            <div class="col c-4 content-visual__img-group">
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img7.png);"></div>
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img8.png);"></div>
+                            </div>
+                            <div class="col c-4 content-visual__img-group">
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img9.png);"></div>
+                                <div class="content-visual__img-item" style="background-image: url(./assets/img/content_img/img10.png);"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Personal Projects -->
+                    <div class="content-project">
+                        <h3 class="content-project__heading">
+                            Personal Projects
+                        </h3>
+                        <div class="content-project__img row">
+                            <div class="col c-4 content-project__img-group">
+                                <div class="content-project__img-item" style="background-image: url(./assets/img/content_img/Rectangle4.png);"></div>
+                            </div>
+                            <div class="col c-4 content-project__img-group">
+                                <div class="content-project__img-item" style="background-image: url(./assets/img/content_img/Rectangle5.png);"></div>
+                            </div>
+                            <div class="col c-4 content-project__img-group">
+                                <div class="content-project__img-item" style="background-image: url(./assets/img/content_img/Rectangle6.png);"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Me-->
+                    <div class="content-contact">
+                        <h3 class="content-contact__heading">Contact Me</h3>
+                        <p class="content-contact__desc">
+                            If you are looking to hire a product designer, <br/>
+                            I’m currently available for freelance work
+                        </p>
+
+                        <div class="send-email__btn contact-btn">
+                            <img alt="letter-icon" srcset="./assets/icons/ic1.png 2x">
+                            <p>hi@yourname.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide" style="height: inherit;">
+                <div class="footer__container row">
+                    <p class="copy-write">
+                        Made by
+                        <a href="#" class="copy-right__link">Your name</a>
+                        — Copyright 2021
+                    </p>
+                    <div class="social-list">
+                        <div class="social-item">
+                            <a href="" class="social-link">
+                                <img class="social-link__icon" alt="" srcset="./assets/icons/ic2.png 2x">
+                            </a>
+                        </div>
+
+                        <div class="social-item">
+                            <a href="" class="social-link">
+                                <img class="social-link__icon" alt="" srcset="./assets/icons/ic3.png 2x">
+                            </a>
+                        </div>
+
+                        <div class="social-item">
+                            <a href="" class="social-link">
+                                <img class="social-link__icon" alt="" srcset="./assets/icons/ic4.png 2x">
+                            </a>
+                        </div>
+
+                        <div class="social-item">
+                            <a href="" class="social-link">
+                                <img class="social-link__icon" alt="" srcset="./assets/icons/ic5.png 2x">
+                            </a>
+                        </div>
+
+                        <div class="social-item">
+                            <a href="" class="social-link">
+                                <img class="social-link__icon" alt="" srcset="./assets/icons/ic6.png 2x">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
