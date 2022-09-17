@@ -12,8 +12,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -24px;
-    margin-right: -24px;
+    margin-left: -4px;
+    margin-right: -4px;
 }
 
 .row.no-gutters {
@@ -22,8 +22,8 @@
 }
 
 .col {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .row.no-gutters .col {
@@ -429,9 +429,9 @@
 
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
-    .wide {
-        width: 644px;
-    }
+    /* .wide {
+        width: 768px;
+    } */
 }
 
 /* > PC low resolution */
