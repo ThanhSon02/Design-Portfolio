@@ -1,3 +1,13 @@
+@media (width: 1024px) {
+    .introduce__img {
+        display: flex !important;
+    }
+
+    .introduce__img > div {
+        width: 74%;
+    }
+}
+
 @media (max-width: 1023px) {
     .header__container,
     .app__container,
@@ -29,7 +39,7 @@
         height: 300px;
     }
 
-    .contact__btn {
+    .email-btn {
         width: 200px;
     }
 }
